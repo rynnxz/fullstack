@@ -1,0 +1,121 @@
+:root{
+    --maincolor: rgb(135, 84, 255);
+    --secondbgcolor: rgb(20, 3, 61);
+    --bgcolor: #100011;
+    --textcolor: #fff;
+}
+
+section {
+    padding: 0 9% 2rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.table-bg {
+    width: 100%;
+    background-color: rgba(135, 84, 255, 0.285);
+    border-radius: 1.5rem;
+    text-align: center; 
+    padding: 1rem;
+}
+
+table {
+    width: 98%;
+    margin: 0 auto; 
+    border-collapse: collapse;
+    background-color: transparent; 
+}
+
+table, th, td {
+    border-top: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.header-table td{
+    font-weight: 600;
+}
+
+
+th {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.inputs form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.input-box input, .input-box select{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--textcolor);
+    background: rgba(123,77,235,0.7);
+    border-radius: .8rem;
+    margin: .7rem .2rem;
+}
+
+.input-box input{
+    width: 30%;
+}
+
+.input-box select {
+    width: 30%;
+}
+
+.inputs form .input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.input-box ::placeholder {
+    color: #fff;
+}
+
+.button {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--maincolor);
+    border-radius: 3rem;
+    box-shadow: 0 0 1rem var(--maincolor);
+    font-size: 1rem;
+    color: var(--textcolor);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.button:hover {
+    background: var(--secondbgcolor);
+    color: var(--maincolor);
+    cursor: pointer;
+}
+
+
+.hargaStyle {
+    color: rgb(0, 139, 33);
+    font-weight: 600;
+}
