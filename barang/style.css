@@ -46,7 +46,7 @@ tr:nth-child(even) {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-form {
+.input-form{
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
@@ -69,6 +69,7 @@ h2 {
     width: 100%;
     padding: 1rem;
     font-size: 1rem;
+    font-weight: 600    ;
     color: var(--textcolor);
     background: rgba(123,77,235,0.7);
     border-radius: .8rem;
@@ -108,14 +109,78 @@ h2 {
     transition: .5s ease;
 }
 
-.button:hover {
+.button:hover{
     background: var(--secondbgcolor);
     color: var(--maincolor);
     cursor: pointer;
 }
 
+.button a {
+    color : var(--textcolor);
+    transition: .5s ease;
+}
+
+.button a:hover {
+    background: var(--secondbgcolor);
+    color: var(--maincolor);
+    cursor: pointer;
+}
 
 .hargaStyle {
     color: rgb(0, 139, 33);
     font-weight: 600;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a{ 
+    font-size: 1.2rem; 
+    text-decoration: none;
+    color: #100011;
+    font-weight: bold; 
+    margin: 5rem 1rem 0 1rem;
+}
+
+.btn-action {
+    border: none;
+    padding: 0.5rem ;
+    font-weight: 500;
+    color: var(--textcolor);
+    background-color: var(--maincolor);
+    border-radius: 1rem;
+    transition: .5s ease;
+}
+
+.btn-action:hover {
+    background-color: var(--secondbgcolor);
+    color: var(--maincolor);
+}
+
+.search-bar {
+    font-size: 1.3rem;
+    border-radius: 0.6rem;
+    margin-right: 1rem;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.search-button {
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    background-color: var(--secondbgcolor);
+    color: var(--textcolor);
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.search-button:hover {
+    background-color: var(--maincolor);
+    color: var(--secondbgcolor);
 }
